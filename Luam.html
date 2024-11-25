@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffdfba, #f4f4f4);
+            color: #ECA7A8;
+        }
+
+        header {
+            background-color: #d0aa9b;
+            color: #fff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 60px;
+        }
+
+        .title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+
+        nav ul li a:hover {
+            color: #ffdfba;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #home {
+            background-color: #ffdfba;
+            padding: 40px;
+            text-align: center;
+        }
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            width: 30%;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .service-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        #contact ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        #contact ul li {
+            margin: 10px 0;
+        }
+
+        #contact ul li a {
+            color: #d0aa9b;
+            text-decoration: none;
+        }
+
+        #contact ul li a:hover {
+            color: #ffdfba;
+            text-decoration: underline;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 500px;
+            margin: 0 auto;
+            gap: 15px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #d0aa9b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: #ffdfba;
+        }
+
+     
+        footer {
+            background-color: #d0aa9b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+        }
+
+        @media (max-width: 768px) {
+            .service-item {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .service-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+	<header>
+        <div class="logo-title">
+            <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/luam logoo.png" alt="Logotipo" class="logo">
+            <h1 class="title">Diseños Luam</h1>
+        </div>
+        <nav>
+            <ul>
+				<li> <a href="Información.html">Luam</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Servicios.html">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section id="home" class="section">
+        <h2>Bienvenidos a Sublimación de Tazas Personalizadas</h2>
+        <p>Convertimos tus ideas en tazas personalizadas perfectas para cada ocasión. Con una variedad de estilos, nuestras tazas personalizadas son el regalo ideal o el complemento perfecto para tu hogar.</p>
+    </section>
+
+   
+    <section id="services-visuals" class="section">
+        <h2>Servicios que Ofrecemos</h2>
+        <div class="services-container">
+            <div class="service-item">
+                <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Imagen de WhatsApp 2024-11-03 a las 21.25.30_261ba010.jpg" alt="Personalización de Tazas">
+                <h3>Personalización de Tazas</h3>
+                <p>Diseñamos tazas personalizadas con frases, fotos o cualquier imagen especial para regalos únicos y promocionales.</p>
+            </div>
+            <div class="service-item">
+                <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/luam logoo.png" alt="Taza 2">
+                <h3>Diseño Gráfico</h3>
+                <p>Ofrecemos diseño gráfico de alta calidad para proyectos publicitarios, marcas y eventos especiales.</p>
+            </div>
+            <div class="service-item">
+                <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Imagen de WhatsApp 2024-11-03 a las 23.52.41_8aa87a94.jpg" alt="Souvenirs Personalizados">
+                <h3>Souvenirs Personalizados</h3>
+                <p>Personalizamos una amplia variedad de artículos, desde llaveros hasta camisetas, para que lleves un recuerdo especial.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <p>¿Quieres una taza personalizada? Contáctanos en nuestras redes sociales o envíanos un mensaje:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/luam_desing/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61568125825152" target="_blank">Facebook</a></li>
+        </ul>
+        <form action="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+   
+    <footer>
+        <p>&copy; 2024 Diseños Luam. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

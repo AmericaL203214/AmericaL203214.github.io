@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseños Luam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color:#E31A68
+            max-width: 100%;
+        }
+
+        header {
+            background-color: #d0aa9b;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 80px;
+        }
+
+        .title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        #home {
+            background: #ffdfba;
+            padding: 50px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #services-visuals {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .services-section {
+            margin-bottom: 40px;
+        }
+
+        .services-section h3 {
+            font-size: 1.8rem;
+            color: #d0aa9b;
+            margin-bottom: 20px;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 45%;
+            text-align: center;
+        }
+
+        .service-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .service-item p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        footer {
+            background-color: #d0aa9b;
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .service-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <div class="logo-title">
+            <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/luam logoo.png" alt="Logotipo" class="logo">
+            <h1 class="title">Diseños Luam</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Luam.html">Home</a></li>
+                <li><a href="#services-visuals">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Bienvenidos a Sublimación de Tazas Personalizadas</h2>
+        <p>En nuestra empresa, convertimos tus ideas en tazas personalizadas perfectas para cada ocasión. Con una variedad de estilos y opciones, nuestras tazas personalizadas son el regalo ideal o el complemento perfecto para tu hogar.</p>
+    </section>
+
+    <section id="services-visuals" class="section">
+        <h2>Servicios que Ofrecemos</h2>
+        
+        <div class="services-section">
+            <h3>Tazas Personalizadas</h3>
+            <div class="services-container">
+                <div class="service-item">
+                    <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Mockup Instagram Post.png" alt="Taza Personalizada 1">
+                    <p>Tazas personalizadas con frases y diseños especiales para cada ocasión.</p>
+                </div>
+                <div class="service-item">
+                    <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Black and White Minimalist Mug Mockup Facebook Post.png" alt="Taza Personalizada 2">
+                    <p>Regala una taza con tus mejores momentos o mensajes únicos.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-section">
+            <h3>Sudaderas Personalizadas</h3>
+            <div class="services-container">
+                <div class="service-item">
+                    <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Black and White Minimalist Hoodie Mockup Instagram Post.png" alt="Sudadera Personalizada 1">
+                    <p>Sudaderas personalizadas con diseños exclusivos y de alta calidad.</p>
+                </div>
+                <div class="service-item">
+                    <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Yellow and Black Minimalist Hoodie Mockup Instagram Post.png" alt="Sudadera Personalizada 2">
+                    <p>Perfectas para mostrar tu estilo único o para eventos especiales.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-section">
+            <h3>Vasos Personalizados</h3>
+            <div class="services-container">
+                <div class="service-item">
+                    <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Imagen de WhatsApp 2024-11-03 a las 23.52.41_3ad003b2.jpg" alt="Vaso Personalizado 1">
+                    <p>Vasos personalizados para cada ocasión, ideales para regalos o uso diario.</p>
+                </div>
+                <div class="service-item">
+                    <img src="file:///C|/Users/ledes/OneDrive/Escritorio/Uni/Computación gráfica/Actividad D2 - copia/Imagen de WhatsApp 2024-11-03 a las 23.52.41_8aa87a94.jpg" alt="Vaso Personalizado 2">
+                    <p>Diseños únicos que se adaptan a tus gustos y necesidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <p>¿Quieres una taza personalizada? Contáctanos en nuestras redes sociales o envíanos un mensaje para hacer tu pedido:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/luam_desing/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61568125825152" target="_blank">Facebook</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sublimación de Tazas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
